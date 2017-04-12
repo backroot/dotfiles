@@ -3,7 +3,7 @@
 ## screen setup script
 
 # install screen
-sudo yum -y install sreen
+sudo yum -y install screen
 
 # link to ~/.screenrc
 SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
