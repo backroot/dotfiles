@@ -12,12 +12,6 @@ set nu
 " カーソルの行、列位置を表示
 set ruler
 
-" 構文毎に文字色を変化
-syntax on
-
-" カラースキーマ
-colorscheme desert
-
 set list
 set listchars=tab:>-,extends:<
 
@@ -85,3 +79,12 @@ call dein#end()
 
 " :call dein#install()
 
+"------------------------------
+" シンタックス＆カラー設定
+"------------------------------
+
+" 構文毎に文字色を変化
+syntax on
+
+" カラースキーマ
+colorscheme desert
