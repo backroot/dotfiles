@@ -2,13 +2,13 @@
 
 ## vim setup script.
 
-yum -y install vim-enhanced
+sudo yum -y install vim-enhanced
 
 # create backup directory
 mkdir ~/.vim/tmp
 
 # install git
-yum -y install git
+sudo yum -y install git
 
 # install dein (plugin manager).
 # https://github.com/Shougo/dein.vim
