@@ -2,6 +2,8 @@
 
 ## vim setup script.
 
+yum -y install vim-enhanced
+
 # create backup directory
 mkdir ~/.vim/tmp
 
@@ -12,3 +14,7 @@ yum -y install git
 # https://github.com/Shougo/dein.vim
 mkdir -p ~/.vim/dein/repos/github.com/Shougo/dein.vim
 git clone https://github.com/Shougo/dein.vim.git ~/.vim/dein/repos/github.com/Shougo/dein.vim
+
+# link to ~/.vimrc
+SCRIPT_DIR=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
+ln -s $SCRIPT_DIR/.vimrc ~/.vimrc
