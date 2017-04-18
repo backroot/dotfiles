@@ -4,8 +4,8 @@ startup_message off
 # 自動デタッチ有効
 autodetach on
 
-# エスケープキーをzに設定
-escape ^Zz
+# エスケープキーをtに設定
+escape ^Tt
 
 # ウィンドウの高さをrキーで変更できるよう設定
 bind r eval 'echo "Resize window"' 'command -c resize'
