@@ -5,7 +5,7 @@
 sudo yum -y install vim-enhanced
 
 # create backup directory
-mkdir ~/.vim/tmp
+sudo mkdir ~/.vim/tmp
 
 # install git
 sudo yum -y install git
