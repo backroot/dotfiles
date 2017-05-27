@@ -81,10 +81,10 @@ inoremap `` ``<LEFT>
 inoremap /**<CR> /**<CR><Space>*<Space><CR>*/<UP>
 inoremap """<CR> """<CR><CR>"""<UP><Tab>
 
-inoremap <Space>l <RIGHT>
-inoremap <Space>h <LEFT>
-inoremap <Space>j <DOWN>
-inoremap <Space>k <UP>
+inoremap <C-l> <RIGHT>
+inoremap <C-h> <LEFT>
+inoremap <C-j> <DOWN>
+inoremap <C-k> <UP>
 
 "------------------------------
 " プラグイン設定
