@@ -1,21 +1,25 @@
 #!/bin/sh
 
-## vim setup script.
+## vim setup script for centos 6 or 7.
 
-sudo yum -y install vim-enhanced
+# Installing packages for vim
+sudo yum -y install vim-enhanced git python-setuptools
+
+# Installing python jedi for jedi-vim
+# https://github.com/davidhalter/jedi-vim
+sudo easy_install pip
+sudo pip install jedi
 
 # create backup directory
 mkdir -p ~/.vim/tmp
 
-# install git
-sudo yum -y install git
-
-# install dein (plugin manager).
+# installing dein (plugin manager).
 # https://github.com/Shougo/dein.vim
 mkdir -p ~/.vim/dein/repos/github.com/Shougo/dein.vim
 git clone https://github.com/Shougo/dein.vim.git ~/.vim/dein/repos/github.com/Shougo/dein.vim
 
-# install vundle
+# installing vundle for jedi-vim
+# https://github.com/VundleVim/Vundle.vim
 mkdir -p ~/.vim/bundle/Vundle.vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
