@@ -101,6 +101,11 @@ call dein#add('Shougo/dein.vim')
 call dein#add('Shougo/unite.vim')
 call dein#add('Shougo/neomru.vim')
 call dein#add('Shougo/neocomplcache.vim')
+call dein#add('leafgarland/typescript-vim')
+call dein#add('jason0x43/vim-js-indent')
+call dein#add('othree/javascript-libraries-syntax.vim')
+call dein#add('clausreinke/typescript-tools.vim')
+call dein#add('joonty/vdebug')
 
 call dein#end()
 
@@ -143,7 +148,7 @@ let g:neocomplcache_keyword_patterns['default'] = '\h\w*'
 
 " Plugin key-mappings.
 inoremap <expr><C-g>     neocomplcache#undo_completion()
-inoremap <expr><C-l>     neocomplcache#complete_common_string()
+inoremap <expr><C-s>     neocomplcache#complete_common_string()
 
 " Recommended key-mappings.
 " <CR>: close popup and save indent.
@@ -263,6 +268,12 @@ let g:jedi#auto_vim_configuration = 1
 "let g:jedi#usages_command = "<leader>n"
 "let g:jedi#completions_command = "<C-Space>"
 "let g:jedi#rename_command = "<leader>r""
+
+"------------------------------
+" Javascript
+"------------------------------
+let g:js_indent_typescript = 1
+let g:used_javascript_libs = 'jquery,angularjs,react'
 
 "------------------------------
 " 改行時の自動コメントアウトを無効
