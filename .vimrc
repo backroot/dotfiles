@@ -101,7 +101,9 @@ call dein#add('Shougo/dein.vim')
 call dein#add('Shougo/unite.vim')
 call dein#add('Shougo/neomru.vim')
 call dein#add('Shougo/neocomplcache.vim')
+call dein#add('powerline/powerline')
 call dein#add('vim-airline/vim-airline')
+call dein#add('vim-airline/vim-airline-themes')
 call dein#add('leafgarland/typescript-vim')
 call dein#add('jason0x43/vim-js-indent')
 call dein#add('othree/javascript-libraries-syntax.vim')
@@ -254,6 +256,13 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
+
+"------------------------------
+" Vim Airline Theme
+"------------------------------
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='powerlineish'
+
 
 "------------------------------
 " Jedi
