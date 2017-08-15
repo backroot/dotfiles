@@ -109,6 +109,7 @@ call dein#add('jason0x43/vim-js-indent')
 call dein#add('othree/javascript-libraries-syntax.vim')
 call dein#add('clausreinke/typescript-tools.vim')
 call dein#add('joonty/vdebug')
+call dein#add('tpope/vim-fugitive')
 
 call dein#end()
 
@@ -227,7 +228,6 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
 Plugin 'davidhalter/jedi-vim'
 " plugin from http://vim-scripts.org/vim/scripts.html
 " Plugin 'L9'
