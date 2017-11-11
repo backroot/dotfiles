@@ -37,6 +37,9 @@ set noswapfile
 set backup
 set backupdir=~/.vim/tmp
 
+" Undoファイルを作成しない
+set noundofile
+
 " バックスペースでオートインデントの空白及び前の行の空白を削除可能にする
 set backspace=indent,eol,start
 
