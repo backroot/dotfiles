@@ -225,6 +225,11 @@ let g:neocomplcache_force_omni_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='powerlineish'
 
+"------------------------------
+" Typescript
+"------------------------------
+"let g:TSS = ["/Users/kotaro/.nodebrew/current/bin/tss"]
+
 
 "------------------------------
 " Jedi
