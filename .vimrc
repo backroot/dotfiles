@@ -58,6 +58,8 @@ autocmd BufNewFile * set fileformat=unix
 autocmd BufNewFile,BufRead *.ep set filetype=html
 " .ctp ファイルをphpファイルとして認識する
 autocmd BufNewFile,BufRead *.ctp set filetype=php
+" .scss ファイルをsassとして認識する
+autocmd BufNewFile,BufRead *.scss set filetype=sass
 
 " 括弧内へ移動
 inoremap {} {}<LEFT>
